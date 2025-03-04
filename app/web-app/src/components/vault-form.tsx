@@ -70,7 +70,6 @@ const createVaultFormSchema = z.object({
     tallyDate: z.date({
         required_error: 'Tally Date is required.',
     }),
-    // chainId: z.string(),
 });
 
 interface VaultFormInterface {
